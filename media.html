@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Favourite social media posts, embedded YouTube videos, and local and online images.">
+  <meta name="author" content="Ayesha Jamil">
+  <title>Favourite Media | Ayesha Jamil — Portfolio</title>
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <h1 class="brand"><a href="index.html">Ayesha Jamil</a></h1>
+      <nav aria-label="Primary Navigation">
+        <ul class="nav-menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="hobbies.html">Hobbies</a></li>
+          <li><a href="media.html" class="active">Favourite Media</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="page-title-box">
+      <h2>Favourite Media</h2>
+      <p>Social media highlights in the left column, 5 embedded YouTube videos in the right column, and featured images below.</p>
+    </section>
+
+    <section class="media-grid">
+      <!-- Left Column: Social Media Posts / Highlights -->
+      <div class="media-col">
+        <h3>Social Media Posts &amp; Highlights</h3>
+
+        <article class="post-card">
+          <div class="post-meta">@webdev_notes · HTML5 Semantics</div>
+          <p>
+            “Writing semantic HTML5 makes every web page cleaner, easier to maintain, and accessible to all users.”
+          </p>
+        </article>
+
+        <article class="post-card">
+          <div class="post-meta">@css_craft · Layout Systems</div>
+          <p>
+            “Combine Flexbox for navigation menus with CSS Grid for multi-column layouts to build responsive pages
+            without extra complexity.”
+          </p>
+        </article>
+
+        <article class="post-card">
+          <div class="post-meta">@cs_students_pk · Study Tip</div>
+          <p>
+            “Break big programming assignments into small steps, commit each milestone on GitHub, and validate your
+            code early.”
+          </p>
+        </article>
+      </div>
+
+      <!-- Right Column: 5 Embedded YouTube Videos -->
+      <div class="media-col">
+        <h3>Favourite YouTube Videos (5)</h3>
+
+        <div class="video-item">
+          <p>1. HTML Full Course for Beginners</p>
+          <iframe class="video-frame" src="https://www.youtube.com/embed/UB1O30fR-EE" title="HTML Crash Course" allowfullscreen></iframe>
+        </div>
+
+        <div class="video-item">
+          <p>2. CSS Flexbox Tutorial in 15 Minutes</p>
+          <iframe class="video-frame" src="https://www.youtube.com/embed/fYqEso8gJJQ" title="CSS Flexbox Tutorial" allowfullscreen></iframe>
+        </div>
+
+        <div class="video-item">
+          <p>3. CSS Grid Layout Crash Course</p>
+          <iframe class="video-frame" src="https://www.youtube.com/embed/jV8B24rSN5o" title="CSS Grid Tutorial" allowfullscreen></iframe>
+        </div>
+
+        <div class="video-item">
+          <p>4. Responsive Web Design Basics</p>
+          <iframe class="video-frame" src="https://www.youtube.com/embed/srvUrASGQ0s" title="Responsive Web Design Tutorial" allowfullscreen></iframe>
+        </div>
+
+        <div class="video-item">
+          <p>5. Git &amp; GitHub for Beginners</p>
+          <iframe class="video-frame" src="https://www.youtube.com/embed/RGOj5yH7evk" title="Git and GitHub Tutorial" allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- One Local Image and One Online Image -->
+    <section class="image-gallery">
+      <article class="img-card">
+        <h3>Local Image (<code>images/local-featured.jpg</code>)</h3>
+        <img src="images/local-featured.jpg" alt="Ayesha Jamil CSC 337 Portfolio Local Banner">
+        <p class="img-caption">Stored locally inside the repository’s <code>images/</code> folder.</p>
+      </article>
+
+      <article class="img-card">
+        <h3>Online Image</h3>
+        <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=900&q=80" alt="Laptop with code editor on desk">
+        <p class="img-caption">Loaded directly from an external online image URL.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Ayesha Jamil (41361) | CSC 337 — Web Programming Languages (Evening 03:30)</p>
+    <p>Iqra University Islamabad Campus (H-9)</p>
+  </footer>
+</body>
+</html>
